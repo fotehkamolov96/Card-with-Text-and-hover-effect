@@ -1,0 +1,171 @@
+body {  
+    display: flex;
+    justify-content:center;
+}
+.card{
+    position: relative;
+    width: 25rem;
+    height: 40rem;
+    background-size: cover;
+    background-color: black;
+    background-image: url(https://images.pexels.com/photos/5990696/pexels-photo-5990696.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-clip: content-box;
+    border-radius: 2%;
+    background-position: center center;
+    overflow: hidden;
+    box-shadow: blue;
+    margin-left: 20px;
+}
+.card_inner{
+    background-color:rgb(0,0,0,0.8);
+    color: white;
+    position: absolute;
+    top: 0%;
+    bottom:0%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 0;
+    padding: 2rem 1.2rem 2rem 2rem;
+    transition: all 0.5s ease 0s;
+}
+.card:hover .card_inner{
+    opacity: 1;
+}
+.card_inner p{
+    overflow-y: scroll;
+    height: 85%;
+    text-align: left;
+    font-size: 22px;
+    padding-right: 1rem;
+    margin-bottom: 12px;
+}
+::-webkit-scrollbar{
+    width: 0.3rem;
+}
+::-webkit-scrollbar-thumb{
+    background-color:#fff;
+    border-radius:40px;   
+}
+.wrapper { 
+    display: flex;
+    padding-top: 350px;
+  }
+h2{
+    font-size: 42px;
+}
+.card2{
+    position: relative;
+    width: 25rem;
+    height: 40rem;
+    background-size: cover;
+    background-color: blue;
+    background-image: url(https://images.pexels.com/photos/68510/blue-red-painted-brick-68510.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-clip: content-box;
+    border-radius: 2%;
+    background-position: center center;
+    overflow: hidden;
+    box-shadow: blue;
+    margin-left: 20px;
+}
+.card_inner2{
+    background-color:rgba(0, 18, 157, 0.7);
+    color: white;
+    position: absolute;
+    top: 0%;
+    bottom:0%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 0;
+    padding: 2rem 1.2rem 2rem 2rem;
+    transition: all 0.5s ease 0s;
+}
+
+.card2:hover .card_inner2{
+    opacity: 1;
+}
+.card_inner2 p{
+    overflow-y: scroll;
+    height: 85%;
+    text-align: left;
+    font-size: 22px;
+    padding-right: 1rem;
+    margin-bottom: 12px;
+}
+.card3{
+    position: relative;
+    width: 25rem;
+    height: 40rem;
+    background-size: cover;
+    background-color: brown;
+    background-image: url(https://images.pexels.com/photos/5473225/pexels-photo-5473225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-clip: content-box;
+    border-radius: 2%;
+    background-position: center center;
+    overflow: hidden;
+    box-shadow: brown;
+    margin-left: 20px;
+}
+.card_inner3{
+    background-color:rgba(51, 0, 0, 0.7);
+    color: white;
+    position: absolute;
+    top: 0%;
+    bottom:0%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 0;
+    padding: 2rem 1.2rem 2rem 2rem;
+    transition: all 0.5s ease 0s;
+}
+.card3:hover .card_inner3{
+    opacity: 1;
+}
+.card_inner3 p{
+    overflow-y: scroll;
+    height: 85%;
+    text-align: left;
+    font-size: 22px;
+    padding-right: 1rem;
+    margin-bottom: 12px;
+}
+.card4{
+    position: relative;
+    width: 25rem;
+    height: 40rem;
+    background-size: cover;
+    background-color: blue;
+    background-image: url(https://images.pexels.com/photos/1770809/pexels-photo-1770809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-clip: content-box;
+    border-radius: 2%;
+    background-position: center center;
+    overflow: hidden;
+    box-shadow: blue;
+    margin-left: 20px;
+}
+.card_inner4{
+    background-color:rgba(0, 51, 17, 0.7);
+    color: white;
+    position: absolute;
+    top: 0%;
+    bottom:0%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 0;
+    padding: 2rem 1.2rem 2rem 2rem;
+    transition: all 0.5s ease 0s;
+}
+.card4:hover .card_inner4{
+    opacity: 1;
+}
+.card_inner4 p{
+    overflow-y: scroll;
+    height: 85%;
+    text-align: left;
+    font-size: 22px;
+    padding-right: 1rem;
+    margin-bottom: 12px;
+}
